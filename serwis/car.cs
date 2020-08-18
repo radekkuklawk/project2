@@ -28,5 +28,11 @@ namespace serwis
             this.km = autoKM;
             this.price = autoPrice;
         }
+
+        public string GetInfo()
+        {
+            return $"Marka - {make}, Rok - {model}, Przebieg - {km}, Cena - {price}";
+        }
+
     }
 }
