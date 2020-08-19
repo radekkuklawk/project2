@@ -15,7 +15,7 @@ namespace serwis
             driveType = "";
         }
 
-        Truck(string truckMake, int truckModel, int truckKm, double truckPrice, string truckDriveType) : base(truckMake, truckModel, truckKm, truckPrice)
+        public Truck(string truckMake, int truckModel, int truckKm, double truckPrice, string truckDriveType) : base(truckMake, truckModel, truckKm, truckPrice)
         { 
             this.driveType = truckDriveType; 
         }

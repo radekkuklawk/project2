@@ -15,7 +15,7 @@ namespace serwis
             Doors = 0;
         }
 
-        public Sedan(string carMake, int carModel, int carMileage, double carPrice, int carDoors) : base (carMake, carModel, carMileage, carPrice)
+        public Sedan(string carMake, int carModel, int carkm, double carPrice, int carDoors) : base (carMake, carModel, carkm, carPrice)
         {
             this.Doors = carDoors;
         }

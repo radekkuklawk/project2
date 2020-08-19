@@ -15,7 +15,7 @@ namespace serwis
             Passengers = 0;
         }
 
-        public Suv(string SUVMake, int SUVModel, int SUVKM,double SUVPrice, int SUVPassengers) : base(SUVMake, SUVModel, SUVKM, SUVPrice)
+        public Suv(string SUVMake, int SUVModel, int SUVKM, double SUVPrice, int SUVPassengers) : base(SUVMake, SUVModel, SUVKM, SUVPrice)
         { 
             this.Passengers = SUVPassengers; 
         }
