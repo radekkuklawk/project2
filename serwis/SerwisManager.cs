@@ -36,5 +36,9 @@ namespace serwis
             _Cars.Add(car);
             return car;
         }
+        public IEnumerable <Car> GetAllCars()
+        {
+            return _Cars
+        }
     }
 }
