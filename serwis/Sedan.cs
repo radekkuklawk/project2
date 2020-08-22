@@ -20,5 +20,9 @@ namespace serwis
             this.Doors = carDoors;
         }
 
+        public override string TypeCar()
+        {
+            return "Sedan";
+        }
     }
 }

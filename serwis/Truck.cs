@@ -19,5 +19,10 @@ namespace serwis
         { 
             this.driveType = truckDriveType; 
         }
+        public override string TypeCar()
+        {
+            return "Truck";
+        }
+    }
 }
-}
+

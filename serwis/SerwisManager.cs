@@ -38,7 +38,7 @@ namespace serwis
         }
         public IEnumerable <Car> GetAllCars()
         {
-            return _Cars
+            return _Cars;
         }
     }
 }

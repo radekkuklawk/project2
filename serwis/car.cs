@@ -31,8 +31,10 @@ namespace serwis
 
         public string GetInfo()
         {
-            return $"Marka - {make}, Rok - {model}, Przebieg - {km}, Cena - {price}";
+            return $"Marka - {make}, Rok - {model}, Cena - {price}";
         }
+
+        public abstract string TypeCar();
 
     }
 }

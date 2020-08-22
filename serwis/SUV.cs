@@ -19,5 +19,9 @@ namespace serwis
         { 
             this.Passengers = SUVPassengers; 
         }
-}
+        public override string TypeCar()
+        {
+            return "Suv";
+        }
+    }
 }
