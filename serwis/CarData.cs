@@ -12,16 +12,12 @@ namespace serwis
     {
         public string make { get; }
         public int model { get; }
-        public int km { get; }
-        public double price { get; }
+     
 
-        public CarData(string Make, string Model, string Km, string Price)
+        public CarData(string Make, string Model)
         {
             make = Make;
             model =int.Parse(Model);
-            km = int.Parse(Km);
-            price = double.Parse(Price);
-
         }
     }
 }
