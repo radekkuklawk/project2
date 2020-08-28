@@ -1,22 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Management.Instrumentation;
-using System.Runtime.Remoting;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace serwis
 {
-    class CarData
+    class CarDataAll
     {
         public string make { get; }
         public string model { get; }
+        public int km { get; }
+        public double price { get; }
 
-        public CarData(string Make, string Model)
+        public CarData(string Make, string Model, string Km, string Price)
         {
             make = Make;
-            model =Model;
+            model = Model;
+            km = int.Parse(Km);
+            price = double.Parse(Price);
+
         }
     }
 }

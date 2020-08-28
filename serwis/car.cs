@@ -9,19 +9,19 @@ namespace serwis
     abstract class Car
     {
         public string make { get;}
-        public int model { get;}
+        public string model { get;}
         public int km { get;}
         public double price { get;}
-
+        
         public Car()
         {
             make = "";
-            model = 0;
+            model = "";
             km = 0;
             price = 0.0;
         }
 
-        public Car(string autoMake, int autoModel, int autoKM, double autoPrice)
+        public Car(string autoMake, string autoModel, int autoKM, double autoPrice)
         {
             this.make = autoMake;
             this.model = autoModel;
